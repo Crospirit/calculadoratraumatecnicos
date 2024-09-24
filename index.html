@@ -7,6 +7,20 @@
     <link rel="manifest" href="https://github.com/Crospirit/calculadoratraumatecnicos/raw/main/images/manifest.json">
     <link rel="icon" href="https://github.com/Crospirit/calculadoratraumatecnicos/raw/main/images/favicon.ico" type="image/x-icon">
     <style>
+    body {
+        -webkit-user-select: none; /* Safari */
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+        user-select: none; /* Non-prefixed version, currently supported by Chrome, Opera and Edge */
+    }
+</style>
+
+<script>
+    document.addEventListener('contextmenu', function(e) {
+        e.preventDefault();
+    });
+</script>
+    <style>
         body {
             font-family: Arial, sans-serif;
             margin: 20px;
